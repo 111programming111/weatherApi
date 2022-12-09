@@ -4,7 +4,7 @@ const key = "cd1d162b41c96252af6ed79aa2db8990";
 var tempBody = document.querySelector(".cont");
 var searchBtn = document.getElementById("searchBtn");
 
-document.querySelector("body").style.backgroundImage = "url('./back2.gif')";
+document.querySelector("body").style.backgroundImage = "url('https://cdna.artstation.com/p/assets/images/images/017/663/252/original/anastasia-kozheko-normal.gif?1645074105')";
 
 searchBtn.onclick = () => {
 	getResult(searchBar.value);
