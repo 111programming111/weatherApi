@@ -28,6 +28,9 @@ const weatherStatus = (status) => {
 		case "parçalı bulutlu":
 			tempBody.style.backgroundImage = "url('./parcaliBulutlu.jpg')";
 			break;
+		case "parçalı az bulutlu":
+			tempBody.style.backgroundImage = "url('./parcaliBulutlu.jpg')";
+			break;
 		case "az bulutlu":
 			tempBody.style.backgroundImage = "url('./parcaliBulutlu.jpg')";
 			break;
@@ -47,6 +50,9 @@ const weatherStatus = (status) => {
 			tempBody.style.backgroundImage = "url('./karli.png')";
 			break;
 		case "yağmurlu":
+			tempBody.style.backgroundImage = "url('./yagmurlu.jpeg')";
+			break;
+		case "hafif yağmur":
 			tempBody.style.backgroundImage = "url('./yagmurlu.jpeg')";
 			break;
 		case "güneşli":
