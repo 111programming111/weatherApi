@@ -4,6 +4,8 @@ const key = "cd1d162b41c96252af6ed79aa2db8990";
 var tempBody = document.querySelector(".cont");
 var searchBtn = document.getElementById("searchBtn");
 
+document.querySelector("body").style.backgroundImage = "url('./back2.gif')";
+
 searchBtn.onclick = () => {
 	getResult(searchBar.value);
 };
